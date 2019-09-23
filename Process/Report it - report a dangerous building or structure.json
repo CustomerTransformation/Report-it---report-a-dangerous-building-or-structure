@@ -11,7 +11,7 @@
     "date_due_warn": "",
     "showCaseReference": false,
     "isSubform": false,
-    "notes": false,
+    "notes": "added field for email to Fareham",
     "initial_stage": "Stage 1",
     "initial_stage_id": "AF-Stage-dc4ab505-15cc-4ee1-900b-9214797348f1",
     "prefix": "RP",
@@ -9291,6 +9291,46 @@
                   },
                   "conditionInputs": [],
                   "id": "AF-Field-d27af37b-1076-4872-84ab-f9c3a6bb4a23"
+                },
+                {
+                  "type": "text",
+                  "props": {
+                    "label": "emailFareham",
+                    "dataName": "emailFareham",
+                    "labelPosition": "alignLeft",
+                    "defaultValue": "bcpartnership@fareham.gov.uk",
+                    "helpText": "",
+                    "hidden": true,
+                    "readOnly": true,
+                    "summaryField": false,
+                    "displayName": true,
+                    "outerClass": null,
+                    "labelClass": null,
+                    "inputClass": null,
+                    "outputFormat": "normal",
+                    "currencyPrefix": null,
+                    "width": null,
+                    "inputMask": null,
+                    "inputMaskPlaceholder": null,
+                    "lengthCount": null,
+                    "hideWhenBlank": null,
+                    "displayCondition": null,
+                    "mandatoryCondition": null,
+                    "readonlyCondition": null,
+                    "mandatory": false,
+                    "minimumLength": "",
+                    "maximumLength": "",
+                    "validationCondition": "",
+                    "validationMask": "",
+                    "mandatoryMessage": "This field is required",
+                    "minimumLengthMessage": "Please input at least _min_value_ characters",
+                    "maximumLengthMessage": "Please input no more than _max_value_ characters",
+                    "validationMaskMessage": "Please input text of the format: _validation_mask_",
+                    "validationConditionMessage": "This field is invalid",
+                    "validationMaskMessageValue": "Select..."
+                  },
+                  "conditionInputs": [],
+                  "id": "AF-Field-171d7bc9-00c0-477b-bf09-8f6547046d0d"
                 }
               ]
             }
@@ -9365,6 +9405,11 @@
           "populated": true
         },
         {
+          "label": "Please specify",
+          "dataName": "pleaseSpecify",
+          "populated": true
+        },
+        {
           "label": "Please provide details",
           "dataName": "provideDetails",
           "populated": true
@@ -9375,17 +9420,12 @@
           "populated": true
         },
         {
-          "label": "Length of time the problem has been there",
-          "dataName": "lengthTime",
-          "populated": true
-        },
-        {
-          "label": "If you have any evidence, please upload it in here",
+          "label": "Upload photos or videos of the issue here",
           "dataName": "uploadEvidence",
           "populated": true
         },
         {
-          "label": "If you have video evidence which is bigger than the limit allowed by the upload button, please tick this box and we will contact you to retrieve it",
+          "label": "If you have trouble uploading video because it's too large, tick the box and we'll contact you",
           "dataName": "video",
           "populated": true
         },
@@ -9397,6 +9437,11 @@
         {
           "label": "concSummary",
           "dataName": "concSummary",
+          "populated": true
+        },
+        {
+          "label": "emailFareham",
+          "dataName": "emailFareham",
           "populated": true
         }
       ]
